@@ -1,7 +1,7 @@
 
 package com.bloc.syntax;
 
-public class SyntaxDisaster extends Object {
+public class SyntaxDisaster2 extends Object {
 
 	/*
 	 *	ASSIGNMENT:
