@@ -1,5 +1,7 @@
 ## Logic
 
+### Brandon Testing
+
 Open your command prompt and `cd` into this README's directory (`foundation/16-logic`). In the src path is a file named `Logic.java`. Open it and fill in the portions of the code where the comments have indicated to do so.
 
 When you've completed your work, test your code by compiling it with the following command:

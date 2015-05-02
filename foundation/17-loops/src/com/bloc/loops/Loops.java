@@ -11,6 +11,9 @@ public class Loops extends Object {
 		boolean temp = false;
 
 		//********** Starts Here ************************/
+		
+		
+		/*
 		temp = someBools[7];
 		someBools[7] = someBools[0];
 		someBools[0] = temp;
@@ -26,6 +29,20 @@ public class Loops extends Object {
 		temp = someBools[4];
 		someBools[4] = someBools[3];
 		someBools[3] = temp;
+		*/
+		int up_index = 0;
+		int down_index = 7;
+		
+		while(down_index >= 4)
+			{
+
+			temp = someBools[down_index];
+			someBools[down_index] = someBools[up_index];
+			someBools[up_index] = temp;
+			
+			up_index++;
+			down_index--;
+			}
 		//********** Ends Here **************************/
 		
 
@@ -50,6 +67,7 @@ public class Loops extends Object {
 		/************************************************/
 
 		//********** Starts Here ************************/
+		/*		
 		numArray[0] = !someBools[0] ? 1 : 0;
 		numArray[1] = !someBools[1] ? 1 : 0;
 		numArray[2] = !someBools[2] ? 1 : 0;
@@ -58,6 +76,30 @@ public class Loops extends Object {
 		numArray[5] = !someBools[5] ? 1 : 0;
 		numArray[6] = !someBools[6] ? 1 : 0;
 		numArray[7] = !someBools[7] ? 1 : 0;
+	if (a > b) {
+    result = x;
+	} else {
+    result = y;
+	}
+
+This can be rewritten as the following statement:
+
+result = a > b ? x : y;
+		*/
+		up_index=0;
+		down_index=7;		
+		for (up_index = 0; up_index <= 7; up_index++) {
+			//numArray[up_index] = !someBools[up_index] ? 1 : 0;
+			if(someBools[up_index]==false)
+				{
+				numArray[up_index]=1;
+				}
+			else
+				{
+				numArray[up_index]=0;
+				}
+			}
+
 		//********** Ends Here **************************/
 
 
